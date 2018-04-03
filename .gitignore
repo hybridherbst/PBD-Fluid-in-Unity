@@ -1,0 +1,91 @@
+# Ignore Pattern eine auswahl und beispiele von ignore pattern findet man auch hier 
+
+# https://github.com/x3ro/gitignore
+
+
+
+# Project Folders
+
+# Dynamic Plugins
+bin/Dynamic/
+*._dynamic_.*
+
+OS junk files
+[Tt]humbs.db
+*.DS_Store
+ 
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+ipch/
+obj/
+[Bb]in
+[Bb]uild
+[Rr]elease*/
+[Dd]ynamic*/
+Ankh.NoLoad
+
+ 
+#Archives
+
+#Subversion files
+.svn
+ 
+# Office Temp Files
+~$*
+ 
+# VVVV bcp
+*~.xml
+ 
+#media files
+
+
+#Custom
+Builds/
+Library/
+Temp/
+desktop.ini
+Builds/
+intel_rs_runtime/
+Iterazer for RealSense_Data/
+Iterazer for RealSense.exe
+Additionals/dx11/Iterazer-RealSense-setup.exe
+unity/unity.Plugins.csproj
+unity/unity.csproj
+unity/unity.Editor.csproj
+development/Iterazer3D/.vs/
+development/Iterazer3D/Iterazer3D.sln
+development/Iterazer3D/Iterazer3D.csproj
+.vs/
+GeometryEngine.sln
+GeometryEngine.csproj
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
+com.unity.postprocessing.Runtime.csproj
+com.unity.postprocessing.Editor.csproj
+GeometryEngine.Editor.csproj
+GeometryEngine.Plugins.csproj
+Unity.PackageManagerUI.Editor.csproj
+GeometryEngine.Editor.Plugins.csproj
+Unity.ProBuilder.AddOns.Editor.csproj
+Assembly-CSharp-Editor-firstpass.csproj
+Assembly-CSharp-firstpass.csproj
+com.unity.package-manager-ui.Editor.csproj
